@@ -58,6 +58,11 @@ Install all required package of composer to get the application working.
 
 ```shell
 npm install && npm run dev
+
+#Run this command instead if you recieved an error as feedback upon running the above code:
+
+rm -rf node_modules && npm install && npm run dev
+
 ```
 
 Install all required package of npm and serve the application as development.
@@ -77,12 +82,12 @@ php artisan migrate
 Apply the migration of the application. This will create all the required tables on your database.
 
 ### Running the Application
-
+<!-- 
 ```shell
 npm run hot
 ```
 
-Since we are using vue template, this will compile the vue files needed for the frontend of the application to work
+Since we are using vue template, this will compile the vue files needed for the frontend of the application to work -->
 
 ```shell
 php artisan serve
