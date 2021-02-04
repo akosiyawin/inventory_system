@@ -41,6 +41,14 @@ and a Dashboard that you can use to view the summary records of your inventory.
 
 A quick introduction of the minimal setup you need to get the project up and running.
 
+**Download** or **Clone** the application:
+
+```shell
+git clone https://github.com/akosiyawin/inventory_system.git
+```
+
+Clone this repository.
+
 ### Package Setup
 ```shell
 composer install
@@ -69,6 +77,12 @@ php artisan migrate
 Apply the migration of the application. This will create all the required tables on your database.
 
 ### Running the Application
+
+```shell
+npm run hot
+```
+
+Since we are using vue template, this will compile the vue files needed for the frontend of the application to work
 
 ```shell
 php artisan serve
